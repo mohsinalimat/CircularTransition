@@ -12,6 +12,8 @@
 		18DC04961FA3F6A200ED0F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DC04941FA3F6A200ED0F8C /* Main.storyboard */; };
 		18DC04981FA3F6A200ED0F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC04971FA3F6A200ED0F8C /* Assets.xcassets */; };
 		18DC049B1FA3F6A200ED0F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DC04991FA3F6A200ED0F8C /* LaunchScreen.storyboard */; };
+		18DC04A31FA3F8D400ED0F8C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC04A21FA3F8D400ED0F8C /* SecondViewController.swift */; };
+		18DC04A51FA3F9B400ED0F8C /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC04A41FA3F9B400ED0F8C /* CircularTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		18DC04971FA3F6A200ED0F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DC049A1FA3F6A200ED0F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DC049C1FA3F6A200ED0F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DC04A21FA3F8D400ED0F8C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		18DC04A41FA3F9B400ED0F8C /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				18DC04901FA3F6A200ED0F8C /* AppDelegate.swift */,
 				18DC04921FA3F6A200ED0F8C /* ViewController.swift */,
 				18DC04941FA3F6A200ED0F8C /* Main.storyboard */,
+				18DC04A41FA3F9B400ED0F8C /* CircularTransition.swift */,
 				18DC04971FA3F6A200ED0F8C /* Assets.xcassets */,
 				18DC04991FA3F6A200ED0F8C /* LaunchScreen.storyboard */,
 				18DC049C1FA3F6A200ED0F8C /* Info.plist */,
+				18DC04A21FA3F8D400ED0F8C /* SecondViewController.swift */,
 			);
 			path = CircularTransitionAnimation;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DC04A31FA3F8D400ED0F8C /* SecondViewController.swift in Sources */,
 				18DC04931FA3F6A200ED0F8C /* ViewController.swift in Sources */,
 				18DC04911FA3F6A200ED0F8C /* AppDelegate.swift in Sources */,
+				18DC04A51FA3F9B400ED0F8C /* CircularTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
